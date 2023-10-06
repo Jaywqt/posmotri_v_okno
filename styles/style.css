@@ -164,7 +164,6 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  /*align-items: center;*/
   gap: 5px;
 }
 
@@ -177,7 +176,7 @@ ol {
   height: 17px;
 }
 
-input[type="checkbox"]:checked + span.search-form__pseudo-checkbox::before {
+input[type="checkbox"]:checked + span::before {
   content: '';
   width: 15px;
   height: 15px;
